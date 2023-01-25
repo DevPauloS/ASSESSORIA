@@ -1,0 +1,38 @@
+*{  
+    background-color: #8b6ccb; 
+    font-family: sans-serif;
+}
+.list{
+    background-color: #8b6ccb;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1em auto;
+    width: 18em;
+    height: 18em;
+}
+.logo-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.1em auto;
+}
+.botao{
+    background-color: #8b6ccb;
+    box-shadow: 1px 1px rgb(206, 201, 204);
+    text-decoration: none;    
+    padding: 1em;
+    justify-items: center;
+    color: #ffffff;
+    font-weight: 700;
+}
+.botao:hover{    
+    background-color: #680b9e;
+}
+.logo{
+    width: 15em;
+    margin-top: 0.5em;
+}
